@@ -9,8 +9,4 @@ export class AppComponent {
   title = 'angular-app';
   displayed = 'recipes';
 
-  onMenuItemClicked(menuItem: string) {
-    this.displayed = menuItem;
-  }
-
 }

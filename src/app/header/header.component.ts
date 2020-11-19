@@ -11,10 +11,6 @@ export class HeaderComponent implements OnInit {
   
   constructor() { }
 
-  onSelect(menuItem: string) {
-    this.menuClick.emit(menuItem);
-  }
-
   ngOnInit(): void {
   }
 
