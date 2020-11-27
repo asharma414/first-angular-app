@@ -18,6 +18,8 @@ import { ShoppingListService } from './shoppinglist/shoppinglist.service';
 import { RecipeSelectComponent } from './recipes/recipeselect/recipeselect.component';
 import { RecipeEditComponent } from './recipes/recipeedit/recipeedit.component';
 import { RecipeService } from './recipes/recipe.service';
+import { AuthComponent } from './auth/auth/auth.component';
+import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinner/loading-spinner.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { RecipeService } from './recipes/recipe.service';
     RecipeSelectComponent,
     RecipesComponent,
     DropdownDirective,
-    RecipeEditComponent
+    RecipeEditComponent,
+    AuthComponent,
+    LoadingSpinnerComponent
   ],
   imports: [
     BrowserModule,
